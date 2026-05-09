@@ -28,6 +28,16 @@
           <input type="checkbox" name="estilo" value="rock">Rock
           <input type="checkbox" name="estilo" value="pop">Pop
           <input type="checkbox" name="estilo" value="sertanejo">Sertanejo
+
+          <br><br>
+          
+          <select name="estado">
+            <option value="">Selecione...</option>
+            <option value="Sao Paulo">Sao Paulo</option>
+            <option value="Rio de janeiro">Rio de janeiro</option>
+            <option value="Brasilia">Brasilia</option>
+            <option value="Espirito santo">Espirito santo</option>
+          </select>
           
           
           
@@ -39,6 +49,27 @@
 
 
           </form>
+
+
+          <fomr>
+            <h2> Fildset e Legend </h2>
+          <!--  
+            fildset = conjunto de campos
+            legend = legenda para conjunto de campos 
+          -->
+                <fieldset>
+                  <legend>Dados Pessoais:</legend>
+                      <form action="processa" method="post">
+                         Email:
+                            <input type="email" name="email" placeholder="digite seu melhor email">
+
+                           Senha: 
+           <input type="password" name="senha" placeholder="digite um senha forte"><br>
+                </fieldset>
+
+
+
+          </fomr>
               
               
 
